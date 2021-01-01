@@ -18,7 +18,7 @@ import SwiftUI
                 VStack(spacing: 0) {
                     Spacer()
 
-                    Spirograph(innerRadius: Int(innerRadius), outerRadius: Int(outerRadius), distance: Int(distance), amount: amount)
+                    Spirograph(innerRadius:  Int(innerRadius), outerRadius: Int(outerRadius), distance: Int(distance), amount: amount)
                         .stroke(Color(hue: hue, saturation: 1, brightness: 1), lineWidth: 1)
                         .frame(width: 300, height: 300)
 
